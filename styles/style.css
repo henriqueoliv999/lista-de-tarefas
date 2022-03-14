@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../assets/sketches-gradient-doodle-logo-wallpaper.jpg);
+    background-size: cover;
+    font-family: Architects Daughter;
+}
+
+#lista {
+    width: 50%;
+    padding: 15px;
+    margin: 5px;
+    border: gray;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+}
+
+h1 {
+    font-weight: bold;
+    padding: 20px;
+    color: rgb(247, 229, 229);
+    font-family: Architects Daughter;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+.total {    
+    padding: 15px;
+    margin: auto;
+    margin-top: 15px;
+    float: center;
+    text-align: center;
+    height: 500px;
+    width: 50%;
+    /* background: rgba(255, 255, 255, 0.658); */
+    background-image: linear-gradient(to bottom left, rgba(184, 12, 184, 0.349), rgba(17, 212, 170, 0.363));
+    border-radius: 10px;
+    border: white;
+    border-width: 3px;
+    border-style: dashed;
+}
+
+.item {
+    display: flex;
+    font-size: 22px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    color: white;
+}
+
+.item > input[type='checkbox']:checked + div {
+    text-decoration: line-through;
+
+}
+
+
+.item:hover {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.541);
+    transition: all .5s ease;
+}
+
+
+/* .item > button[type="button"] {
+
+    background-image: url(../assets/1105187.jpg);
+    background-size: cover;
+    
+} */
+
+button {
+    background-color: black;
+    background: purple;
+    background-size: cover;
+    background-image: url(../assets/3856287.jpg);
+}
+ 
+#lista{
+    font-family: Architects Daughter;
+}

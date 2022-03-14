@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <link rel="icon"
+        href="./assets/png-transparent-computer-icons-notepad-notebook-notepad-icons-no-attribution-miscellaneous-angle-text-thumbnail.png"
+        type="image/png">
+    <title>Lista de tarefas</title>
+    <style>
+        @media screen and (max-width: 1050px) {
+            .total {
+                max-width: 100%;
+                background-color: #af1414bb;
+                padding: 20px;
+                float: center;
+            }
+
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="total">
+        <div>
+            <h1>MINHA LISTA DE TAREFAS</h1>
+            <hr>
+        </div>
+
+        <div id="novaTarefa">
+            <input type="text" name="lista" id="lista" placeholder="Nova tarefa">
+           
+            <hr>
+        </div>
+        <div class="list" id="listinha">
+        </div>
+    </div>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
